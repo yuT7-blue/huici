@@ -1,0 +1,4 @@
+/.codex/
+/draft_*/
+__pycache__/
+.DS_Store

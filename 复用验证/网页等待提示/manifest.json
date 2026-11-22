@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "回此 · 网页等待提示",
+  "version": "0.1.0",
+  "description": "在 ChatGPT 网页等待回答时，留意刚才的问题。",
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["waiting.js"],
+      "css": ["waiting.css"]
+    }
+  ]
+}

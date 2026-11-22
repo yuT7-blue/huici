@@ -1,0 +1,17 @@
+.huici-wait-prompt {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.75em;
+  margin-block: 0.5em;
+  padding-inline-start: 0.75em;
+  border-inline-start: 2px solid currentColor;
+  font: inherit;
+  font-size: 0.875rem;
+}
+.huici-wait-prompt button {
+  font: inherit;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+{
+  "description": "回此本地 Codex 事件验证",
+  "hooks": {
+    "UserPromptSubmit": [{"hooks": [{"type": "command", "command": "node codex-probe/record.mjs", "timeout": 3}]}],
+    "Stop": [{"hooks": [{"type": "command", "command": "node codex-probe/record.mjs", "timeout": 3}]}],
+    "Interrupt": [{"hooks": [{"type": "command", "command": "node codex-probe/record.mjs", "timeout": 3}]}],
+    "PermissionRequest": [{"hooks": [{"type": "command", "command": "node codex-probe/record.mjs", "timeout": 3}]}]
+  }
+}
